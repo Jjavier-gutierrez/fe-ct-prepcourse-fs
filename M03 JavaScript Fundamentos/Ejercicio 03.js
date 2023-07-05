@@ -2,60 +2,40 @@
 /*3️⃣ EJERCICIO 03 3️⃣*/
 
 function sonIguales(x, y) {
- if(x==y){
-     return true;
- }else{
- return false;
- }
+ 
+   return x == y;
   
 }
 
 function tienenMismaLongitud(str1, str2) {
-   if (str1.length == str2.length){
-      return true;
-     } else {
-      return false;
-     }
+ 
+   return str1.length == str2.length;
 }
 
 function menosQueNoventa(num) {
-   if(num<90){
-      return true;
-    }else {
-      return false
-   }
+ 
+   return num < 90;
 }
 
 
 function mayorQueCincuenta(num) {
-   if(num>50){
-      return true;
+ 
+   return num > 50;
 
-   }else {
-      return false;
-   }
 }
 
 function esPar(num) {
    // Retorna true si "num" es par.
    // De lo contrario, retorna false.
    // Tu código:
-   if(num % 2 == 0 ) {
-          return true;
-   }else{
-        return false;
-   }
+ return (num % 2 ) == 0;
 }
 
 function esImpar(num) {
    // Retorna true si "num" es impar.
    // De lo contrario, retorna false.
    // Tu código:
-   if(num % 2 == 1 ) {
-      return true;
-}else{
-    return false;
-}
+ return (num % 2) == 1
 
 }
 
