@@ -3,7 +3,7 @@
 
 function devolverString(string) {
    // Debe retornar un string.
-   console.log(string);
+   
    return string;
 }
 
