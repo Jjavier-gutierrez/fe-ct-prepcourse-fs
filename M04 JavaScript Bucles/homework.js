@@ -165,7 +165,7 @@ function esPrimo(num) {
    if (num <= 1 ){
       return false;
    }
-   for(let i = 2 ; i < num; i++ ){
+   for(let i = 2 ;  i < num; i++ ){
       if (num % i === 0){
          return false;   
       }
@@ -178,7 +178,7 @@ function esVerdadero(valor) {
    // Caso contrario, retornar "Soy falso".
    // Tu código:
     if (valor) return "Soy verdadero"
-    return "Soy falso"
+    return "Soy falso";
 }   
 
 function tieneTresDigitos(num) {
@@ -188,7 +188,7 @@ function tieneTresDigitos(num) {
    const numString = num.toString();
 
    if (numString.length === 3)return true;
-   return false   
+   return false;
 }
 
 function doWhile(num) {
